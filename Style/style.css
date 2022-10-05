@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+}
+
+.site-header{
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* .bg-image{
+    background: center no-repeat;
+    background-image: url('/Style/assets/rupixen-com-Q59HmzK38eQ-unsplash.jpg');
+    height: 120vh;
+    width:auto;
+} */
+
+.bgimg{
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.container{
+    z-index: 1;
+    position: relative;
+    text-align: center;
+}
+
+.center{
+    background-image: url('/Style/assets/rupixen-com-Q59HmzK38eQ-unsplash.jpg');
+    z-index: 3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-img-top{
+    max-height: 190px;
+}
+.row{
+    margin-top: 50px;
+}
+
+.col-md-7{
+    text-align: center;
+}
